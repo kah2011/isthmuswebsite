@@ -1,0 +1,45 @@
+#content {
+	color: #300;
+	text-align: left;
+	text-indent: 0;
+	height: auto;
+}
+#content .toplink {
+	margin: 20px;
+	text-align: right;
+}
+#content div {
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+#content div p  {
+	margin-bottom: 15px;
+	margin-top: 5px;
+
+
+}
+#content div .duration {
+	font-size: 14px;
+	font-style: italic;
+}
+#content div a b {
+	font-size: 18px;
+}
+
+
+#content div .discussgroup {
+	font-weight: bold;
+	color: #000;
+	font-size: 18px;
+}
+#content div h2 {
+	text-decoration: underline;
+	margin-top: 5px;
+}
+#content div .returntop {
+	text-align: right;
+	font-size: 18px;
+}

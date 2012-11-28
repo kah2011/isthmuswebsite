@@ -1,0 +1,29 @@
+@charset "utf-8";
+#content {
+	color: #000;
+	text-align: left;
+	text-indent: 0px;
+}
+#content dl {
+	margin-top: 40px;
+}
+
+#content dl dt {
+	font-size: 24px;
+	font-style: italic;
+	color: #300;
+	font-weight: bold;
+	text-indent: 25px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#content dl dd {
+	font-size: 16px;
+	padding-right: 30px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+#content dl .text_bold {
+	font-weight: bold;
+	font-size: 18px;
+}

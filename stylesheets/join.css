@@ -1,0 +1,24 @@
+#content {
+	text-align: center;
+	font-size: 20px;
+	color: #300;
+	height: auto;
+}
+#content p {
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+#content form  {
+	color: #000;
+	text-align: left;
+	text-indent: 0px;
+	padding: 30px;
+}
+#content form .box_align {
+}
+#content form textarea {
+	width: 450px;
+	height: 150px;
+}

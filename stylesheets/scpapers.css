@@ -1,0 +1,29 @@
+@charset "utf-8";
+#content {
+	color: #300;
+	text-align: center;
+	text-indent: 0px;
+}
+#content table {
+	margin: 20px;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+}
+#content table tr p {
+	padding: 10px;
+	text-align: left;
+}
+
+#content h2 {
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-decoration: underline;
+}

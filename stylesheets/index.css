@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+#body_content #content .twitter-share-button, .fb-like {
+  margin: 0px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  padding: 0px;
+  float: left;
+}
+
+#body_content #content .twitter-share-button {
+  margin-left: 40px;  
+}
+
+#content #lecture_series {
+  padding-top: 15px;
+  border-top-style: double;
+  border-right-style: double;
+  border-bottom-style: double;
+  border-left-style: double;
+  margin: 5px;
+  text-align:left;
+  text-indent: 0px;
+  padding-left: 30px;
+}
+
+#content, #menulist {
+	height: 850px;
+}
+
+#content #lecture_series p a {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#content p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+#content h2 {
+  margin: 5px;
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+#content h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+#content .center_aligned p{
+  text-align: center;
+  font-size: 30px;
+  color: #366;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+#content #recent_event p{
+  color: #336;
+  text-decoration: underline;
+}
+
+#guest_img {
+  float: right;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 10px;
+  width: 200px;
+  height: 250px;
+}
+
+#body_content #content #lecture_series #abstract {
+	text-indent: 0px;
+	font-size: 14px;
+	margin: 15px;
+	margin-left: 0px;
+	margin-right: 25px;
+	text-align: justify;
+	color: #333300;
+	font-weight: normal;
+	border: 1px dashed black; 
+	padding: 10px;
+}
+
+#body_content #content #lecture_series #flyer {
+	color: #003;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#body_content #content #lecture_series a:hover {
+	font-size: 18px;
+	color: #333;
+}
+
+#body_content #content #lecture_series a:active {
+	color: #000;
+}

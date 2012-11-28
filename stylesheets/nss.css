@@ -1,0 +1,25 @@
+#content {
+	color: #300;
+	text-align: left;
+	text-indent: 0px;
+}
+#content h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	font-size: 28px;
+}
+#content table tr .link {
+	padding: 10px;
+}
+
+#content table {
+	border: 2px solid #000;
+}
+#content table tr td {
+	font-size: 18px;
+	font-weight: normal;
+}
