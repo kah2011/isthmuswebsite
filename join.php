@@ -58,10 +58,13 @@ $(document).ready(function(){
 <div id="menulist">
 <ul>
 <li>
+<a href="index.html" class=""> Home </a>
+</li>
+<li>
 <a href="Activities.html" class=""> Activities &amp; Events </a>
 </li>
 <li>
-<a href="join.html" class="current"> Join Our List </a>
+<a href="join.php" class="current"> Join Our List </a>
 </li>
 <li>
 <a href="about.html" class=""> About Us </a>
@@ -133,7 +136,7 @@ else {
 <option value="wisc.edu">wisc.edu</option>
 </select><br /><br />
 Comment: <br />
-<textarea name="comments" id="txtarea" onkeyup="keyPress(this)">Enter your comment(s) here</textarea>
+  <textarea name="comments" id="txtarea" onkeyup="keyPress(this)">Enter your comment(s) here</textarea>
 <input type="submit" name="submit" value="Click to submit"/>
 </fieldset>
 </form>

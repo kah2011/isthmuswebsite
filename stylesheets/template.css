@@ -3,58 +3,95 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+
+#logo img{
+	border-radius:15px;
+	-moz-border-radius:15px;	
+}
+
 body {
-	background-image: url(../images/gray-parchment.jpg);
+	background-image: url(../images/gray-background.jpg);
+	background-repeat: repeat;
 }
 
 #menulist {
 	font-family: Arial, Helvetica, sans-serif, Verdana;
-	font-size: 24px;
-	background-image: url(../images/isthmus_10.jpg);
+	background-image: url(../images/graymenulist.jpg);
 	background-repeat: no-repeat;
 	float: left;
-	width: 190px;
-	height: 800px;
-	background-color: #FFF;
+	width: 165px;
+	height: auto;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	border:2px solid #a1a1a1;
+	-webkit-box-shadow: 5px 5px 5px #9c9c9c; /*old IE*/
+	-moz-box-shadow: 5px 5px 5px #9c9c9c; /* Firefox 3.6 
+	and earlier */
+	box-shadow: 5px 5px 5px #9c9c9c;
+	padding: 10px;
+	padding-top: 18px;
 }
 
 #menulist ul {
 	list-style-type: none;
-	padding-top: 20px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 25px;
-	font-size: 20px;
-	font-weight: bold;
-}
-#menulist ul li {
-	padding-bottom: 10px;
-}
-
-#menulist ul a:link {
-	text-decoration: none;
-	color: #330066;
-}
-
-#menulist ul a:hover {
-	text-decoration: underline;
-	color: #333;
-	font-size: 22px;
-}
-#menulist ul a:active {
-	text-decoration: none;
-	color: #FFF;
-}
-#menulist ul li a.current {
 	font-size: 24px;
-	color: #333;
+	font-weight: bold;
+	padding-left: 0px;
+}
+
+#menulist ul li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#menulist ul li a.current {
+	font-size: 28px;
 	font-style: italic;
+	color: #C90;
+	border-left-width: 4px;
+	border-right-width: 4px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-color: #F90;
+	border-right-color: #F90;
+	/*color-transition when hover current*/
+	transition: border-left-color 1s linear, border-right-color 1s linear;
+	-webkit-transition: border-left-color
+	 1s linear, border-right-color 1s linear;
+	 -moz-transition: border-left-color 1s linear, border-right-color 1s linear; /* Firefox 4 */
+	-o-transition: border-left-color 1s linear, border-right-color 1s linear; /* Opera */
+}
+
+#menulist ul li a:link, ul li a:visited {
+	text-decoration: none;
+	color: #996600;
+	display: block;
+	-webkit-box-shadow: 1px 1px 1px 1px #000;
+	-moz-box-shadow: 1px 1px 1px 1px #000;
+	box-shadow: 1px 1px 1px 1px #000;
+}
+
+#menulist ul li a:hover {
+	text-decoration: underline;
+	color: #FFF;
+	font-size: 28px;
+	background-color: #222326;
+	border: 3px solid #300;
+	border-top: 4px solid #332;
+	border-bottom: 4px solid #332;
+}
+#menulist ul li a:active {
+	text-decoration: none;
+	color: #999;
 }
 
 #address {
+	color: #FFF;
 	font-size: 12px;
-	padding-left: 12px;
-	padding-top: 150px;
+	padding-left: 5px;
+	padding-top: 120px;
+	padding-bottom: 20px;
 }
 
 #content {
@@ -65,10 +102,17 @@ body {
 	text-align: right;
 	text-indent: 10px;
 	color: #003030;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-box-shadow: 5px 5px 5px #9c9c9c;
+	-moz-box-shadow: 5px 5px 5px #9c9c9c; /* Firefox 3.6 
+	and earlier */
+	box-shadow: 5px 5px 5px #9c9c9c;
+	border:2px solid #a1a1a1;
 }
 
 #body_content {
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 #clear {
