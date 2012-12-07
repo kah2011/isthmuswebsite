@@ -9,3 +9,10 @@ function flipTime(minute) {
     }
     var minutePic = minutes[minute];
 }
+
+function flipTransition() {
+    document.write("-webkit-transition: \n");
+    document.write("transition-property: \n");
+    document.write("-moz-transition: \n");
+    document.write("-o-transition: \n");
+}
